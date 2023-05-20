@@ -11,4 +11,9 @@ public class PrasoonController {
 	String meth1(@RequestParam String name){
 		return "Hello "+name;
 	}
+	
+	@GetMapping("/vr")
+	String meth2(@RequestParam String name){
+		return "Hello "+name;
+	}
 }
